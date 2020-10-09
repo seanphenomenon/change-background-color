@@ -1,0 +1,28 @@
+body {
+  background-color: "violet";
+}
+
+.container {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#button {
+  background-color: #555555;
+  border: 2px solid #4caf50;
+  padding: 10px;
+  font-size: 50px;
+  border-radius: 5%;
+  border-color: white;
+  color: white;
+  font-family:'Helvetica'
+}
+
+#button:hover {
+    opacity: 60%;
+    background-color: cornflowerblue;
+}
